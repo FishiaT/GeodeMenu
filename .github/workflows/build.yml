@@ -37,7 +37,7 @@ jobs:
         #uses: Prevter/build-geode-mod@main
         uses: RoootTheFox/build-geode-mod@main
         with:
-          bidings: hiimjustin000/bindings
+          bindings: hiimjustin000/bindings
           bindings-ref: patch-2
           combine: true
           target: ${{ matrix.config.target }}
